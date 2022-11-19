@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+   <html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+        <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='css/style.css') }}">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Real Time Communication</title>
+   
+    <body>
+     <div class="title">
+         <h1>
+            REAL-TIME COMMUNICATION SYSTEM POWERED BY AI 
+            <BR>FOR SPECIALLY ABLED USING IBM WATSON
+         </h1>
+     </div>
+       <div>
+           <p>
+               Communications between deaf-mute and a normal person has always been a challenging task. It is very difficult for mute people to convey their message to normal people. Since normal people are not trained on hand sign language.<br> The human hand has remained a popular choice to convey information in situations where other forms like speech cannot be used.<br>Voice Conversion System with Hand Gesture Recognition and translation will be very useful to have a proper conversation between a normal person and an impaired person in any language.
+           </p>
+       </div>
+        <div>
+             <h2 style="align-content: center">TO GET STARTED</h2>
+             <a href="{{ url_for('predict') }}">CLICK HERE</a>
+        </div>
+        
+        
+
+    </body>
+</html>
